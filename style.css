@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
-
+@media screen and (min-width: 900px) 
+{
 img {
   align-self: center;
 }
-
-
 
 
 @font-face {
@@ -32,4 +31,18 @@ h1 {
 
 
 }
-
+.yoda1 {
+  display:flex;
+  justify-content: center;
+  
+}
+.yoda2 {
+  display:flex;
+  justify-content: center;
+  
+}
+.yoda3 {
+  display:flex;
+  justify-content: center;
+  
+}

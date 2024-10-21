@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
-@media screen and (min-width: 600px) 
-{
+
 img {
   align-self: center;
 }
@@ -13,36 +12,60 @@ img {
 
 
 /* phone */
+@media screen and (max-width: 600px) {
 body {
-  background-color: #e4e7ec;
+  background-color: #14fac0;
 }
-
-
-
+.yoda1{
+  display:flex;
+  flex-direction: column ;
+}
+.yoda2{
+  display:flex;
+  flex-direction: column ;
+}
+.yoda3{
+  display:flex;
+  flex-direction: column ;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+}
 h1 {
   font-family: "SF Distant Galaxy";
 }
-
+a{
+  
+}
+}
 
 
 /* computer */
 @media screen and (min-width: 600px) {
 
-
-
+body {
+  background-color: #14fac0;
+  font-family: "SF Distant Galaxy";
 }
 .yoda1 {
   display:flex;
   justify-content: center;
-  
+  flex-direction: row;
 }
 .yoda2 {
   display:flex;
-  justify-content: center;
-  
+  justify-content:center ;
+  flex-direction: row;
 }
 .yoda3 {
   display:flex;
   justify-content: center;
-  
+  flex-direction: row;
+}
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
 }
